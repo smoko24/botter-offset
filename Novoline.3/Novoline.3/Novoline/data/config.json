@@ -1,0 +1,63 @@
+{
+    "key": "",
+    "integrity_file": "integrity.txt" ,
+    "presence": true,
+
+    "changer": {
+        "change_bio": {
+            "active": true,
+            "bio": "Best Twitch tool: discord.gg/novoline"
+        },
+        "change_avatar": {
+            "active": true
+        },
+        "add_social": {
+            "active": true,
+            "socials":[
+                {
+                    "url": "https://discord.gg/novoline",
+                    "title": "NOVOLINE AIO"
+                }
+            ]
+        },
+        "change_color": {
+            "active": true,
+            "hex": "AD134B"
+        },
+        "email_verify": {
+            "proxie_tmail": true,
+            "active": false,
+            "domain": "temp-mail.org/pl/",
+            "session_cookie": "adonis-session"
+        }
+    },
+    "gen": {
+        "random_usernames": false,
+        "username_add_random_strings": true,
+        "remove_used_usernames": false
+    },
+    "untils": {
+        "follow_threads": 20,
+        "react_threads": 20
+    },
+    "kasada": {
+        "proxies_fp": true,
+        "max_integrity_threads": 100
+    },
+    "advertise": {
+        "lang": "EN",
+        "count": 20,
+        "remove": true
+    },
+    "chat": {
+        "real_messages": false,
+        "real_delay_sec": 1,
+        "chat_threads": 40
+    },
+    "view": {
+        "view_spam_mode": false,
+        "view_ultra_mode": true
+    },
+
+    "DO_NOT_SET_TO_TRUE_(DEV ONLY)": false
+}
